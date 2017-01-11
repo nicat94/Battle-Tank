@@ -25,4 +25,7 @@ private: // ben didn't specify it private yet
 	// Start the tank moving the barrel so that a shot would it where
 	// the crosshair intersects the world
 	void AimTowardsCrosshair();
+
+	// Return an OUT parameter, true if hit landspace
+	bool GetSightRayHitLocation(FVector& HitLocation) const;
 };
