@@ -1,9 +1,10 @@
 # Visual Studio 2015 user specific files
 .vs/
 
-BattleTank/Content/StarterContent/
 
 *.VC.db
+BattleTank.VC.VC.opendb
+.vs/
 
 # Compiled Object files
 *.slo
